@@ -28,7 +28,7 @@ jobs:
       run: chmod +x build.sh
 
     - name: 构建应用
-      run: ./build.sh
+      run: ./build.sh -s com.example.myapp
 
     # 将构建产物保存为工件，方便下载
     - name: 保存构建产物
