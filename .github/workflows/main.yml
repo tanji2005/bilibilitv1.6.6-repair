@@ -2,9 +2,9 @@ name: 构建 Android 应用
 
 on:
   push:
-    branches: [ main ]
+    branches: [ rollback-branch ]
   pull_request:
-    branches: [ main ]
+    branches: [ rollback-branch ]
 
 jobs:
   build:
