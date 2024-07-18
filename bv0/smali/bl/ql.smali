@@ -530,7 +530,7 @@
 
     if-eqz v3, :cond_1
 
-    const-string v3, "https://app.bilibili.com/v2/playurlproj"
+    const-string v3, "https://哔哩.plus/v2/playurlproj"
 
     goto :goto_1
 
@@ -542,7 +542,7 @@
     goto :goto_1
 
     :cond_2
-    const-string v3, "https://app.bilibili.com/v2/playurl"
+    const-string v3, "https://哔哩.plus/v2/playurl"
 
     .line 118
     :goto_1
